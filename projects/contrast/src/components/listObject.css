@@ -1,0 +1,36 @@
+.left-bar-object{
+    width: 20vw;
+    height:  45vh;
+    color: rgb(252, 252, 252); 
+    margin-bottom: 1vh; 
+}
+
+.product-name{
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.switch-out-button{
+    margin-left: 4vw;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.switch-out-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-button{
+    font-size: 15px;
+    border-radius: 15px;
+    margin-left: 1vw;
+}
+
+.delete-button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

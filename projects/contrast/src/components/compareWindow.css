@@ -1,7 +1,8 @@
 .compare-window-holder{
     width: 40vw;
     height: 25vh;
-    background-color: rgb(0, 41, 128);
+    /* background-color: rgb(0, 41, 128); */
+    background-color: #585858;
     display: flex;
     margin-left: 30vw;
     margin-top: 1vh;
@@ -10,7 +11,8 @@
 .compare-left{
     width: 20vw;
     height: 25vh;
-    background-color: rgb(0, 119, 255);
+    /* background-color: rgb(0, 119, 255); */
+    background-color: #222222;
 }
 
 /* .compare-right{

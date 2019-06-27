@@ -2,7 +2,9 @@
   width: 35vw;
   height: 12.5vh;
   display: flex;
-  background-color: rgb(8, 8, 153);
+  /* background-color: rgb(8, 8, 153); */
+  background-image: linear-gradient( #666666, rgb(12, 12, 12) );
+  
   margin-left: 32.5vw;
   margin-top: 5vh;
   border-radius: 25px;

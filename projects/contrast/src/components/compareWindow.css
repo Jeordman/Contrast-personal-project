@@ -1,0 +1,18 @@
+.compare-window-holder{
+    width: 40vw;
+    height: 25vh;
+    background-color: rgb(0, 41, 128);
+    display: flex;
+    margin-left: 30vw;
+    margin-top: 1vh;
+}
+
+.compare-left{
+    width: 20vw;
+    height: 25vh;
+    background-color: rgb(0, 119, 255);
+}
+
+/* .compare-right{
+
+} */

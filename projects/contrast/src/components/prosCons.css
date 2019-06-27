@@ -1,0 +1,26 @@
+.left-pros-cons{
+    width: 25vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    float: left;
+    background-image: linear-gradient(rgb(0, 119, 255),rgb(0, 41, 128));
+    border-radius: 25px;
+    border-radius: 15px 50px 30px;
+}
+
+.right-pros-cons{
+    width: 25vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    margin-top: 3vh;
+    margin-right: 3vw;
+    float: right;
+    background-image: linear-gradient(rgb(0, 41, 128),rgb(0, 119, 255));
+    border-radius: 25px;
+    border-radius: 50px 15px 50px 30px;
+    /* (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner): */
+}

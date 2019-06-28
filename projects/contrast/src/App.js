@@ -38,10 +38,14 @@ class App extends Component {
     this.setState({list : newList})
   }
 
+  compareFunction = () => {
+
+  }
+
       render(){
         return (
           <div className="App">
-            <List  listProp={this.state.list}/>
+            <List  listProp={this.state.list} compareFunction={this.compareFunction}/>
             {/* pass props to list of selectedItem1 and selectedItem2 */}
             
             <div>

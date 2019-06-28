@@ -13,5 +13,5 @@ app.delete("/api/list/:id" , sc.deleteListItem)
 
 
 app.listen(SERVER_PORT, () => {
-    console.log(`Listening on port ${SERVER_PORT}`)
+    console.log(`Server initialized ${SERVER_PORT}`)
 })

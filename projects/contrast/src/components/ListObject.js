@@ -21,7 +21,7 @@ class ListObject extends Component {
         <div className='left-bar-object'>
         <img width="100%" src={this.props.obj.img}/>
         <section className='product-name'>{this.props.obj.name}</section>
-        <button className='delete-button' >Delete</button>
+        <button className='delete-button'>Delete</button>
         <button className='switch-out-button'>Compare</button>
         {/* onClick needs to fire a function which updates state on App.js for selectedItem*/}
         </div>

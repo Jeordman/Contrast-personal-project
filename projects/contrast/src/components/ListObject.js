@@ -14,15 +14,16 @@ class ListObject extends Component {
     };
   }
 
+
   render() {
-      console.log('hit list object, props:', this.props.obj)
+    let {id, selectItem, side, deleteItem} = this.props
     return (
 
         <div className='left-bar-object'>
-        <img width="100%" src={this.props.obj.img}/>
+        <img width="100%" src={this.props.obj.img} />
         <section className='product-name'>{this.props.obj.name}</section>
-        <button className='delete-button'>Delete</button>
-        <button className='switch-out-button'>Compare</button>
+        <button className='delete-button' onClick={() => {deleteItem(id)}}>Delete</button>
+        <button className='switch-out-button' onClick={() => {selectItem(id, side)}}>Compare</button>
         {/* onClick needs to fire a function which updates state on App.js for selectedItem*/}
         </div>
     )

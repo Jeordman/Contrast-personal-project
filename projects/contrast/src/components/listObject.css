@@ -6,17 +6,17 @@
 }
 
 .product-name{
-    font-weight: bold;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Patrick Hand', cursive;
     font-size: 30px;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
 .switch-out-button{
-    margin-left: 4vw;
     font-size: 15px;
     border-radius: 15px;
+    float: right;
+    margin-right: .5vw;
 }
 
 .switch-out-button:hover{
@@ -27,7 +27,8 @@
 .delete-button{
     font-size: 15px;
     border-radius: 15px;
-    margin-left: 1vw;
+    float: left;
+    margin-left: .5vw;
 }
 
 .delete-button:hover{

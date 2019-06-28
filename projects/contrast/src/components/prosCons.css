@@ -1,27 +1,112 @@
+
 .left-pros-cons{
-    width: 25vw;
-    height: 50vh;
+    width: 28vw;
+    height: 40vh;
     background-color: black;
     display: flex;
     margin-top: 3vh;
-    margin-left: 3vw;
+    margin-left: 1vw;
     float: left;
-    background-image: linear-gradient( #585858,rgb(12, 12, 12));
-    border-radius: 25px;
-    border-radius: 15px 50px 30px;
+    background-image: linear-gradient( #1b1b1b,rgb(231, 1, 59));
+    border-radius: 30px 50px 0px 0px;
 }
 
 .right-pros-cons{
-    width: 25vw;
-    height: 50vh;
+    width: 28vw;
+    height: 40vh;
     background-color: black;
     display: flex;
     margin-top: 3vh;
-    margin-right: 3vw;
+    margin-right: 1vw;
     float: right;
     /* background-image: linear-gradient(rgb(0, 41, 128),rgb(0, 119, 255)); */
-    background-image: linear-gradient( #585858,rgb(12, 12, 12));
-    border-radius: 25px;
-    border-radius: 50px 15px 50px 30px;
+    background-image: linear-gradient( #1b1b1b,rgb(231, 1, 59));
+    border-radius: 50px 30px 0px 0px;
     /* (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner): */
+}
+
+.all-lists.a{
+    list-style-position: outside;
+}
+
+.header-left{
+    display: flex;
+    height: 4vh;
+    width: 5%;
+
+
+}
+
+.add-pro-left{
+    width: 5vw
+}
+
+.header-right{
+    float: right;
+    height: 4vh;
+    width: 50%
+
+}
+
+.add-pro-right{
+    width: 5vw;
+}
+
+.left-pros{
+margin-top: 3vh;
+margin-left: 2%;
+width: 50%;
+height: 100%;
+color: white;
+font-size: 20px;
+overflow-y: scroll;
+}
+
+.left-cons{
+    margin-top: 3vh;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.right-pros{
+    margin-top: 3vh;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.right-cons{
+    margin-top: 3vh;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.left-foot{
+    float: left;
+    width: 20vw;
+    height: 5vh;
+    width: 28vw;
+    margin-left: 1vw;
+    background-color: rgb(12, 12, 12);
+    border-radius: 0px 0px 30px 50px;
+    color:rgb(255, 255, 255);
+}
+
+.right-foot{
+    float: right;
+    width: 20vw;
+    height: 5vh;
+    width: 28vw;
+    margin-right: 1vw;
+    background-color: rgb(12, 12, 12);
+    border-radius: 0px 0px 50px 30px;
+    color:rgb(255, 255, 255);
 }

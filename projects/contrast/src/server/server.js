@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.get("/api/list", sc.fullList);
 app.post("/api/list", sc.addListItem);
-app.delete("/api/list/:id" , sc.deleteListItem)
+app.delete("/api/list/:id" , sc.deleteItem)
 
 
 app.listen(SERVER_PORT, () => {

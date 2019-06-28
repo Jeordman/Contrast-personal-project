@@ -1,6 +1,6 @@
 const list = [
   {
-    name: "Iphone XS Max",
+    name: "iPhone XS Max",
     img: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     id: 100,
     pros: [{description : "Video", idTwo: 0}, {description : "iMessage", idTwo: 1}, {description : "Build Quality", idTwo: 2}, {description : "Ease-of-use", idTwo: 3}, {description : "Ecosystem", idTwo: 4}],
@@ -13,7 +13,7 @@ const list = [
       "https://images.unsplash.com/photo-1511373277659-c604b1f2d61e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
     id: 101,
     pros: [{description : "Best Camera", idTwo: 0}, {description : "Stock Android", idTwo: 1}, {description : "Fastest Updates", idTwo: 2}],
-    cons: [{description : "3 Gigs of ram", idTwo: 0}, {description : "No headphone Jack", idTwo: 1}, {description : "Thick Bezels", idTwo: 2}]
+    cons: [{description : "3 Gigs of ram", idTwo: 0}, {description : "No headphone Jack", idTwo: 1}, {description : "Thicc Bezels", idTwo: 2}]
   },
 
   {
@@ -57,7 +57,7 @@ module.exports = {
     res.status(200).send(list);
   },
 
-  deleteListItem(req, res) {
+  deleteItem(req, res) {
     let { id } = req.params;
     let index = list.findIndex(listVar => listVar.id === +id);
     if (list[index].id === +id) {

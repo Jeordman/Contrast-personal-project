@@ -17,7 +17,8 @@ class List extends Component {
       this.render()
     }
   }
-  
+
+ 
 
   render() {
 
@@ -28,12 +29,12 @@ class List extends Component {
       <div>
         <section  className="left-bar">{this.props.listProp.map(obj => {
             return (<div>
-                <ListObject obj={obj} updateListFn={this.updateList} />
+                <ListObject obj={obj} id={obj.id} side="currentItemLeft" deleteItem={this.props.deleteItem} updateListFn={this.updateList} selectItem={this.props.selectItem}/>
             </div>)
         })}</section>
         <section className="right-bar"> {this.props.listProp.map(obj => {
           return (<div>
-            <ListObject obj={obj} />
+            <ListObject obj={obj} id={obj.id} deleteItem={this.props.deleteItem} side="currentItemRight" selectItem={this.props.selectItem}/>
           </div>)
 
         })}</section>

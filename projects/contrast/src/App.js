@@ -15,9 +15,8 @@ class App extends Component {
       // add selectedItem1 and selectedItem2
       compareItemLeft: [],
       compareItemRight: [], 
-
-      deleteItemLeft: [],
-      deleteItemRight: []
+      currentItemRight: {},
+      currentItemLeft: {},
     };
   }
   componentDidMount() {
@@ -25,7 +24,6 @@ class App extends Component {
       .get("/api/list")
       .then(res => {
         this.setState({ list: res.data });
-        console.log("hit");
         console.log(this.state.list)
       })
       .catch(err => {
@@ -38,20 +36,34 @@ class App extends Component {
     this.setState({list : newList})
   }
 
-  compareFunction = () => {
+  selectItem = (id, side) => {
+    console.log('hit selectItem function id:', id, "currentSide:", side)
+    let currentObject = this.state.list.find(obj => obj.id === +id)
+    this.setState({
+        [side]: currentObject
+    })
+  }
 
+  
+
+  deleteItem = id =>{
+    axios.delete(`/api/list/${id}`)
+    .then(res => {
+      this.setState({ list : res.data})  
+  })
+  .catch(err=> console.log(`brkn`))   
   }
 
       render(){
+        console.log(this.state.currentItemRight);
         return (
           <div className="App">
-            <List  listProp={this.state.list} compareFunction={this.compareFunction}/>
+            <List  listProp={this.state.list} selectItem={this.selectItem} deleteItem={this.deleteItem}/>
             {/* pass props to list of selectedItem1 and selectedItem2 */}
             
             <div>
               <Create updateList={this.updateList}/>
-              <CompareWindow />
-              <ProsCons />
+              <CompareWindow listProp={this.state.list} currentItemLeft={this.state.currentItemLeft} currentItemRight={this.state.currentItemRight} />
             </div>
           </div>
         )

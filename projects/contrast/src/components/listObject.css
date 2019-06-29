@@ -19,11 +19,12 @@
     border-radius: 15px;
     float: right;
     margin-right: .5vw;
+    opacity: .5;
 }
 
 .switch-out-button:hover{
     cursor: pointer;
-    font-weight: bold;
+    opacity:1;
 }
 
 .delete-button{
@@ -31,9 +32,10 @@
     border-radius: 15px;
     float: left;
     margin-left: .5vw;
+    opacity: .5;
 }
 
 .delete-button:hover{
     cursor: pointer;
-    font-weight: bold;
+    opacity:1;
 }

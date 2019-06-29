@@ -15,7 +15,7 @@ class ProsCons extends Component {
     let { currentItemLeft, currentItemRight } = this.props;
     console.log("this is in proscons", currentItemLeft, currentItemRight);
     return (
-      <article classname="full-pros-cons">
+      <article className="full-pros-cons">
         <section className="left-pros-cons">
           <section className="left-pros">
             {" "}

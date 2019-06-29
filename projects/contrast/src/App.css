@@ -10,3 +10,11 @@
   background-color: #333333;
   position: absolute;
 }
+
+button{
+  outline: none;
+}
+
+input{
+  outline: none;
+}

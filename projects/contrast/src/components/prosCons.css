@@ -27,9 +27,12 @@
     /* (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner): */
 }
 
-.all-lists.a{
+.all-lists{
     list-style-position: outside;
+    transition-delay: 200;
 }
+
+
 
 .header-left{
     display: flex;

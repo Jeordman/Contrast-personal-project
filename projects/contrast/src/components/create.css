@@ -53,9 +53,11 @@
   font-size: 12px;
   font-family: 'Strait', sans-serif;
   border-radius: 10px;
+  opacity: .5;
 }
 
 .add-button:hover {
   cursor: pointer;
   font-weight: bold;
+  opacity: 1;
 }

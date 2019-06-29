@@ -6,8 +6,9 @@
   background-image: linear-gradient(  rgb(231, 1, 59) ,#2b2b2b);
   
   margin-left: 32.5vw;
-  margin-top: 5vh;
+  margin-top: 5.5vh;
   border-radius: 25px;
+  font-family: 'Strait', sans-serif;
 }
 
 .create-box-header{
@@ -24,30 +25,34 @@
 .name-input {
   height: 4.5vh;
   width: 11vw;
-  margin-top: 6.5vh;
+  margin-top: 5.5vh;
   margin-left: 1vw;
   margin-right: 1vw;
   font-size: 15px;
-  font-weight: bold;
+  font-family: 'Strait', sans-serif;
+  border-radius: 10px;
 }
 
 .image-url-input {
   height: 4.5vh;
   width: 11vw;
-  margin-top: 6.5vh;
+  margin-top: 5.5vh;
   margin-left: 1vw;
   margin-right: 1vw;
   font-size: 15px;
-  font-weight: bold;
+  font-family: 'Strait', sans-serif;
+  border-radius: 10px;
 }
 
 .add-button {
   height: 4.5vh;
   width: 5.7vw;
-  margin-top: 7vh;
+  margin-top: 6vh;
   margin-left: 1vw;
   margin-right: 1vw;
   font-size: 12px;
+  font-family: 'Strait', sans-serif;
+  border-radius: 10px;
 }
 
 .add-button:hover {

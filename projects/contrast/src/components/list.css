@@ -4,7 +4,7 @@
     float: left;
     width: 20vw;
     height: 100vh;
-    border-radius: 0px 50px 30px 5px;
+    border-radius: 0px 100px 100px 5px;
     overflow-y: scroll;
     /* background-image: linear-gradient( rgb(0, 119, 255), rgb(8, 15, 119));
      */
@@ -17,7 +17,7 @@
     float: right;
     width: 20vw;
     height: 100vh;
-    border-radius: 50px 0px 0px 30px;
+    border-radius: 100px 0px 0px 100px;
     overflow-y: scroll;
     /* background-image: linear-gradient( rgb(0, 119, 255), rgb(8, 15, 119)); */
     background-color: #333333;

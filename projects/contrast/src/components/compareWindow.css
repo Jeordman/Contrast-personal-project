@@ -2,10 +2,10 @@
     width: 40vw;
     height: 25vh;
     /* background-color: rgb(0, 41, 128); */
-    background-color: #fdfdfd;
+    background-color:#333333;
     display: flex;
     margin-left: 30vw;
-    margin-top: 1vh;
+    margin-top: 3vh;
 }
 
 .img-all{
@@ -26,8 +26,9 @@
     height: 25vh;
     /* background-color: rgb(0, 119, 255); */
     background-color: #1f1f1f;
-    color: white;
-    border-radius: 50px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Strait', sans-serif;
+    border-radius: 40px 0px 0px 30px;
 }
 
 .compare-right{
@@ -36,10 +37,8 @@
     height: 25vh;
     /* background-color: rgb(0, 119, 255); */
     background-color: #181818;
-    color: white;
-    border-radius: 0px 50px 0px 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Strait', sans-serif;
+    border-radius: 0px 40px 30px 0px;
 }
 
-/* .compare-right{
-
-} */

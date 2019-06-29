@@ -6,10 +6,12 @@
 }
 
 .product-name{
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Strait', sans-serif;
     font-size: 30px;
+    margin-top: 2vh;
     margin-left: 1vw;
     margin-right: 1vw;
+    margin-bottom: 2vh;
 }
 
 .switch-out-button{

@@ -2,7 +2,7 @@
     width: 40vw;
     height: 25vh;
     /* background-color: rgb(0, 41, 128); */
-    background-color:#333333;
+   
     display: flex;
     margin-left: 30vw;
     margin-top: 3vh;
@@ -25,8 +25,8 @@
     width: 20vw;
     height: 25vh;
     /* background-color: rgb(0, 119, 255); */
-    background-color: #1f1f1f;
-    color: rgb(255, 255, 255);
+    background-color: #e0474c;
+    color: #2b2b2b;
     font-family: 'Strait', sans-serif;
     border-radius: 40px 0px 0px 30px;
 }
@@ -36,8 +36,8 @@
     width: 20vw;
     height: 25vh;
     /* background-color: rgb(0, 119, 255); */
-    background-color: #181818;
-    color: rgb(255, 255, 255);
+    background-color: #7acfd6;
+    color: #2b2b2b;;
     font-family: 'Strait', sans-serif;
     border-radius: 0px 40px 30px 0px;
 }

@@ -3,6 +3,7 @@
     height:  45vh;
     color: rgb(252, 252, 252); 
     margin-bottom: 1vh; 
+    opacity: .8;
 }
 
 .product-name{

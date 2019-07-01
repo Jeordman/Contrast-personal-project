@@ -10,6 +10,8 @@ app.use(express.json());
 app.get("/api/list", sc.fullList);
 app.post("/api/list", sc.addListItem);
 app.delete("/api/list/:id" , sc.deleteItem)
+app.put("/api/list/pro/:id", sc.addPro)
+app.put("/api/list/con/:id", sc.addCon)
 
 
 app.listen(SERVER_PORT, () => {
